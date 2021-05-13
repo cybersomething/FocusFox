@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.focusfox">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:installLocation="preferExternal"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FocusFox">
+        <activity
+            android:name=".timer.Timer"
+            android:parentActivityName=".mainscreen.MainActivity" />
+        <receiver android:name = ".timer.TimerNotif" />
+        <activity
+            android:name=".settings.Settings"
+            android:parentActivityName=".mainscreen.MainActivity" />
+        <activity
+            android:name=".planner.Planner"
+            android:parentActivityName=".mainscreen.MainActivity" />
+        <activity
+            android:name=".journal.Journal"
+            android:parentActivityName=".mainscreen.MainActivity">
+        <intent-filter>
+            <action android:name="android.intent.action.SEARCH" />
+        </intent-filter>
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name=".journal.UpdateJournal"
+            android:parentActivityName=".journal.Journal">
+        </activity>
+        <activity
+            android:name=".journal.AddEntry"
+            android:parentActivityName=".journal.Journal" >
+        </activity>
+        <activity android:name=".quotes.Quotes"
+            android:parentActivityName=".settings.Settings">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+                <action android:name="com.example.focusfox.Quotes"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name=".quotes.AddQuote"
+            android:parentActivityName=".quotes.Quotes">
+        </activity>
+        <activity
+            android:name=".quotes.UpdateQuote"
+            android:parentActivityName=".quotes.Quotes">
+        </activity>
+        <activity android:name=".mainscreen.MainActivity">
+        </activity>
+        <activity android:name=".splashscreen.Splashscreen"
+            android:theme="@style/FocusFoxSplash">
+            <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

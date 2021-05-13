@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "475460330489",
+    "project_id": "focusfox-104aa",
+    "storage_bucket": "focusfox-104aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:475460330489:android:588c15a09af9c096bad328",
+        "android_client_info": {
+          "package_name": "com.example.focusfox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "475460330489-5fjpntvkv7ebpfbhe45cicfj6rra9jdg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.focusfox",
+            "certificate_hash": "9d6d1fc71ada16866a6bbc7250837c400f5aeea0"
+          }
+        },
+        {
+          "client_id": "475460330489-cdmr7q22u7m7h0cloujmuocuifhmon5j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6I7VvY-6hV60pGT8kF97eRHLTBD9hN88"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "475460330489-cdmr7q22u7m7h0cloujmuocuifhmon5j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

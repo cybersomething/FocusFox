@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The default font for RecyclerView items is too small.
+    The margin is a simple delimiter between the words. -->
+    <style name="FocusFoxSplash" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/focusfox_splash</item>
+    </style>
+</resources>

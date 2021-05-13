@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">FocusFox</string>
+    <string name="Planner">Planner</string>
+    <string name="Journal">Journal</string>
+    <string name="nightMode">Toggle Night Mode</string>
+
+    <!-- Preference Titles -->
+
+    <!-- Messages Preferences -->
+
+    <!-- Sync Preferences -->
+    <string name="settingsTab">Settings</string>
+    <string name="delete">DELETE</string>
+    <string name="update">UPDATE</string>
+    <string name="enter_content_update">Enter Content</string>
+    <string name="add_entry_button">Add Entry</string>
+    <string name="enter_title_view">Enter Title</string>
+    <string name="enter_content_view">Enter Content</string>
+    <string name="add_entry_journal">Add Entry</string>
+    <string name="looks_like_there_s_no_entries_add_an_entry_by_clicking_the_drop_down_menu_above">Looks like there\'s no entries - add an entry by clicking the drop down menu above.</string>
+    <string name="location">Location</string>
+    <string name="description">Description</string>
+    <string name="title">Title</string>
+    <string name="quote_test_123">Quote Test 123</string>
+    <string name="there_s_no_quotes_add_a_quote_by_clicking_the_drop_down_menu_above">There\'s no quotes! Add a quote by clicking the drop down menu above.</string>
+    <string name="add_quote" tools:ignore="DuplicateDefinition">Add Quote</string>
+    <string name="edit_your_quote_here">Edit your quote here</string>
+    <string name="enter_your_quote_here">Enter your quote here</string>
+    <string name="delete_all_entries">Delete All Entries</string>
+    <string name="delete_all_quotes">Delete All Quotes</string>
+    <string name="_00_00">00:00</string>
+    <string name="start">start</string>
+    <string name="reset">reset</string>
+    <string name="set">Set</string>
+    <string name="study_timer">Study Timer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="add_to_calendar">add to calendar</string>
+    <string name="update_title">Update Title</string>
+</resources>

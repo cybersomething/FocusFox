@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".journal.Journal">
+
+        <ListView
+            android:id="@+id/list_view"
+            android:layout_width="match_parent"
+            android:layout_height="685dp"
+            android:dividerHeight="1dp"
+            android:padding="10dp">
+
+        </ListView>
+
+        <TextView
+            android:id="@+id/empty"
+            android:layout_width="365dp"
+            android:layout_height="53dp"
+            android:layout_centerInParent="true"
+            android:text="@string/looks_like_there_s_no_entries_add_an_entry_by_clicking_the_drop_down_menu_above" />
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".settings.Settings">
+
+    <PreferenceCategory
+        android:title="Quotes"
+        app:title="Motivational Quotes">
+        <Preference
+            android:key="quotes"
+            android:summary="Add, remove and edit motivational quotes"
+            android:title="Edit Motivational Quotes">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetClass="com.example.focusfox.quotes.Quotes"
+                android:targetPackage="com.example.focusfox" />
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory app:title="Display Theme">
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:key="nightMode"
+            app:summaryOff="Night mode is currently off."
+            app:summaryOn="Night mode is currently on."
+            app:title="Toggle Night Mode" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
